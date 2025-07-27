@@ -420,7 +420,7 @@ with shared.gradio_root:
                             nombre_archivo += ".safetensors"
 
                         # Crear carpeta destino
-                        folder = f"/content/Fooocus/models/{tipo_modelo}"
+                        folder = f"/Fooocus/models/{tipo_modelo}"
                         os.makedirs(folder, exist_ok=True)
                         output_path = os.path.join(folder, nombre_archivo)
 
