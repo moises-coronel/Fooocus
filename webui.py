@@ -400,7 +400,7 @@ with shared.gradio_root:
                                 info="Elige si es un modelo base (checkpoints) o un LoRA."
                             )
                             download_button = gr.Button("Descargar modelo")
-                            download_status = gr.Textbox(label="Progreso", interactive=False, lines=5, max_lines=10)
+                            download_status = gr.Textbox(label="Progreso", interactive=False, lines=2, max_lines=5)
 
                     def descargar_modelo(enlace, nombre_archivo, tipo_modelo):
                         import subprocess
